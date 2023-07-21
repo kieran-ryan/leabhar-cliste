@@ -9,6 +9,8 @@ To prevent this exploit, ensure all dependencies are:
 - Pulled from a single secure server
   - Mirrored to the server if they are public
 
+One researcher was even able to [hack 35 tech firms](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) using this exploit.
+
 ## Remediation Example
 
 For Python dependencies, using a private PyPi server in combination with the public PyPi poses a number of security risks.
@@ -18,7 +20,7 @@ Do not use "pip --extra-index-url". It does not honour any ordering of whether t
 Do:
 
 - Use a single server endpoint that manages priorities on the backend
-  - Artifactory supports virtual repositories that allow you to use a single endpoint that then "virtually" dispatches to an appropriate backend repository, including features like prioritisation. That means you can configure Artifactory to always prioritise private repositories.
+  - Artifactory supports virtual repositories that allow you to use a single endpoint that "virtually" dispatches to an appropriate backend repository, including features like prioritisation. That means you can configure Artifactory to always prioritise private repositories.
 - Mirror public packages to your private PyPi
 - Tie dependency installation to a hash of the contents rather than just the name and version of the package
   - Even if the name and package are the same, if any contents are different than expected, installation will fail. This can be done with tools like `pip-tools` and `poetry`.
