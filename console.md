@@ -2,9 +2,9 @@
 
 ## Long Option Names
 
-Always use long option names. Shorthand condenses code, but at the detriment of readability and explicitness.
+Reserve shorthand option names for the console - where it is most efficient. Always use long names in scripts. Shorthand condenses code, but at the detriment of readability and explicitness.
 
-While shorthand names may be intuitive when written, or to a tool export...
+While shorthand names may be intuitive when written, or to a tool expert...
 
 ```console
 radon cc -asj .
