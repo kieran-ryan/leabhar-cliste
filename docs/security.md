@@ -1,4 +1,6 @@
-# Dependency Confusion
+# Security
+
+## Dependency Confusion
 
 "dependency confusion" is a supply chain exploit where a hacker provides their malicious package with the same name as a genuine package and uploads it to a public repository in the hope that it's accidentally downloaded. If successful, the hacker will have access to [arbitrary code execution](https://www.okta.com/identity-101/arbitrary-code-execution/), potentially allowing them full access to sensitive data or enabling them to damage production services.
 
@@ -11,7 +13,7 @@ To prevent this exploit, ensure all dependencies are:
 
 One researcher was even able to [hack 35 tech firms](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) using this exploit.
 
-## Remediation Example
+### Remediation Example
 
 For Python dependencies, using a private PyPi server in combination with the public PyPi poses a number of security risks.
 
@@ -27,6 +29,6 @@ Do:
 - Consider "squatting" a similarily named package on PyPi (creating an empty package to prevent others pushing malicious packages to that namespace), however this is not endorsed by the PyPi organisation and empty packages can be removed.
   - It also exposes your package names and naming conventions - which provides more information to attackers e.g. they could try the same naming conventions on a different unprotected package repository, such as `npm`.
 
-# Email
+## Email
 
 When signing up for a service, include the site name in your email address e.g. `email+site@gmail.com`. If you receive any spam over that address, you will know that they sold your data, and you can more easily filter out and identify spam emails against that address.
