@@ -3,7 +3,7 @@
 ![Pipeline status](https://github.com/kieran-ryan/leabhar-cliste/actions/workflows/main.yml/badge.svg)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/kieran-ryan/leabhar-cliste/main.svg)](https://results.pre-commit.ci/latest/github/kieran-ryan/leabhar-cliste/main)
 ![LICENSE](https://img.shields.io/badge/license-MIT-blue)
-![Prettier](https://img.shields.io/badge/codestyle-prettier-deeppink)
+![Prettier](https://img.shields.io/badge/code%20style-prettier-deeppink)
 
 Programming practices, principles and concepts.
 
