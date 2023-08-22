@@ -4,8 +4,11 @@ Programming practices, principles and concepts.
 
 See:
 
+- [API](api.md)
 - [Complexity](complexity.md)
 - [Console](console.md)
+- [Database](database.md)
+- [Design](design.md)
 - [Errors](errors.md)
 - [Mindset](mindset.md)
 - [Naming](naming.md)
