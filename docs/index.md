@@ -12,5 +12,6 @@ See:
 - [Errors](errors.md)
 - [Mindset](mindset.md)
 - [Naming](naming.md)
+- [Presentations](presentations.md)
 - [Security](security.md)
 - [Testing](testing.md)
