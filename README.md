@@ -28,7 +28,7 @@ mkdocs serve
 
 Contributions to this project are most welcome. Feel free to [create an issue](https://github.com/kieran-ryan/leabhar-cliste/issues/new) or to raise a Pull Request.
 
-It is recommended to work with [Visual Studio Code](https://code.visualstudio.com) and [pre-commit](https://pre-commit.com) when working with the source code, which are pre-configured within the project.
+It is recommended to use [Visual Studio Code](https://code.visualstudio.com) and [pre-commit](https://pre-commit.com) when working with the source code, which are pre-configured within the project.
 
 ```console
 pip install --requirement requirements.txt
