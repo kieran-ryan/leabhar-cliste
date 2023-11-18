@@ -14,5 +14,6 @@ See:
 - [Naming](naming.md)
 - [Presentations](presentations.md)
 - [Productivity](productivity.md)
+- [Resources](resources.md)
 - [Security](security.md)
 - [Testing](testing.md)

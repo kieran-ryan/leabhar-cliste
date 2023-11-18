@@ -1,4 +1,4 @@
-# Meaningful Names
+# Naming
 
 > Is it a bird? Is it a plane? No! It's a... var_1?!
 
@@ -25,4 +25,4 @@ If you are still having trouble naming something, it probably means something ne
 
 ## References
 
-- Robert C. Martin, _Clean Code_
+- _Clean Code_, Robert C. Martin
