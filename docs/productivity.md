@@ -67,6 +67,10 @@ quadrantChart
 6. Take breaks between blocks
 7. Make changes if needed
 
+## 5 Hour Rule
+
+Devote one hour a day, five days a week, to learning something new.
+
 ## References
 
-- Bre Pettis and Kio Stark,[ _Cult of Done Manifesto_](http://brepettis.com/work-avenue#/cultofdone/), 2009
+- Bre Pettis and Kio Stark,[_Cult of Done Manifesto_](http://brepettis.com/work-avenue#/cultofdone/), 2009
