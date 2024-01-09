@@ -45,6 +45,7 @@ List of useful software engineering resources
 
 - [Software Engineering Radio](https://www.se-radio.net/) - The podcast for professional software developers.
 - [The Changelog Podcast](https://changelog.com/podcast)
+- [The README Podcast](https://github.com/readme/podcast) - Your favourite open source projects, and the developers who make them happen. Listen in.
 - [The Stack Overflow Podcast](https://stackoverflow.blog/podcast)
 
 ## Tutorials
