@@ -32,6 +32,8 @@ List of useful software engineering resources
 - Software Abstractions - Daniel Jackson
 - Software Engineering - Ian Sommerville
 - Refactoring - Martin Fowler
+- The BDD Books - Discovery: Explore behaviour using examples - Gáspár Nagy and Seb Rose
+- The BDD Books - Formulation: Document examples with Given When Then - Gáspár Nagy and Seb Rose
 - The Design of Everyday Things - Don Norman
 - The E-Myth Revisited - Michael E. Gerber
 - The Pragmatic Programmer - David Thomas and Andrew Hunt
