@@ -4,8 +4,9 @@ List of useful software engineering resources
 
 ## Blogs
 
-- [Anthony Shaw's Blog](https://tonybaloney.github.io/#blog) - Blog from a Python Advocacy Lead at Microsoft
+- [Anthony Shaw's Blog](https://tonybaloney.github.io/#blog) - Blog from a Python Advocacy Lead at Microsoft.
 - [Joel On Software](https://www.joelonsoftware.com) - Software blog of Joel Spolsky.
+- [Matt Wynne's Blog](https://mattwynne.net) - Blog from the co-founder of Cucumber Limited.
 - [Netflix Tech Blog](https://netflixtechblog.com) - Learn about Netflix’s world class engineering efforts, company culture, product developments and more.
 - [Pinterest Engineering Blog](https://medium.com/pinterest-engineering) - Inventive engineers building the first visual discovery engine, 300 billion ideas and counting.
 - [Spotify Engineering](https://engineering.atspotify.com) - Spotify's official technology blog.
@@ -14,7 +15,7 @@ List of useful software engineering resources
 - [The Overflow](https://stackoverflow.blog) - Essays, opinions, and advice on the act of computer programming, from Stack Overflow.
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com) - Observations across the software engineering industry.
 - [The ReadME Project](https://github.com/readme) - The ReadME Project amplifies the voices of the open source community: the maintainers, developers, and teams whose contributions move the world forward every day.
-- [Letters To A New Developer](https://letterstoanewdeveloper.com) - What I wish I had known when starting my development career, by Dan Moore
+- [Letters To A New Developer](https://letterstoanewdeveloper.com) - What I wish I had known when starting my development career, by Dan Moore.
 
 ## Books
 
