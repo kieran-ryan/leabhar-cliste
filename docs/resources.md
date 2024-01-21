@@ -36,8 +36,11 @@ List of useful software engineering resources
 - The BDD Books - Formulation: Document examples with Given When Then - Gáspár Nagy and Seb Rose
 - The Design of Everyday Things - Don Norman
 - The E-Myth Revisited - Michael E. Gerber
+- The Manager's Path - A Guide for Tech Leaders Navigating Growth & Change - Fournier
 - The Pragmatic Programmer - David Thomas and Andrew Hunt
+- The Staff Engineer's Path - Reilly
 - The Software Craftsman - Sandro Mancuso
+- The Software Engineer's Guidebook - Gergely Orosz
 
 ## Guides
 
