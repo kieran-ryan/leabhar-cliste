@@ -54,3 +54,62 @@ Then move onto the analysis, using one of the following processes:
   - When finished, use a blind vote to agree on the one suggestion that the group believes to be the true root cause
 
 Through this process, a root cause can be determined which will inform the required solution.
+
+## Behaviour Driven Development
+
+It is critical that tests written in a domain language are not done so in isolation, and that there is a mixture of technical and non-technical members present. This is where we typically apply a _Three Amigos_ approach with three distinct roles present in the authoring process. The roles are often a Business-Analyst/Product-Owner, a developer and a tester.
+
+**Why is a _Three Amigos_ approach so important for writing good quality Tests in a domain language?**
+
+Each stakeholder brings unique perspectives. Without these sessions, we prevent the test representing a common understanding, and key opportunities are missed to thrash out and expose those differences.
+
+For example, Scenarios written by non-technical team members very often can't be automated without being changed. Once that happens, the test stops being the thing the Product Owner believed in. Further, the technical members can become viewed as 'implementers' who automate and develop deliverables, rather being part of the formulation process.
+
+Similarly, if technical members write the tests in isolation without input from the Product Owner, the tests can very quickly become too low-level and difficult to understand.
+
+The three roles bring balance in finding an appropriate scope for the test.
+
+Shared ownership is really important. If the Tester or Developer modify the tests in isolation without input from the Product Owner, authoring tests very quickly becomes a task consigned to technical members; and visa-versa.
+
+### Gherkin
+
+After familiarising yourself with the Gherkin Reference documentation, you should have a solid understanding of how to write tests with correct syntax.
+
+#### Common value in examples column
+
+Which out for the pitfalls of including unnecessary data in Scenario Outline examples tables. If you have a value that's common across examples, you can simply include it within the test step itself. This will reduce the volume of your test, improving maintainability.
+
+<table>
+<tr>
+<td>
+
+```gherkin
+Given I have <quantity> pieces of <food>
+...
+
+Examples:
+  | quantity | food     |
+  |       10 | gherkin  |
+  |       10 | pickle   |
+```
+
+</td>
+<td>
+
+```gherkin
+Given I have 10 pieces of <food>
+...
+
+Examples:
+  | food     |
+  | gherkins |
+  | pickles  |
+```
+
+</td>
+</tr>
+</table>
+
+## References
+
+- Cucumber anti-patterns ([part 1](https://cucumber.io/blog/bdd/cucumber-antipatterns-part-one/)) and ([part 2](https://cucumber.io/blog/bdd/cucumber-anti-patterns-part-two/))
