@@ -71,6 +71,13 @@ quadrantChart
 
 Devote one hour a day, five days a week, to learning something new.
 
+## PAL Meetings
+
+- **Purpose:** Determine the purpose of the meeting and make sure everyone understands it.
+- **Agenda:** Circulate the topics to be covered in service of that purpose.
+- **Limit:** Set guidelines for how long the meeting and agenda items will take.
+
 ## References
 
 - Bre Pettis and Kio Stark,[_Cult of Done Manifesto_](http://brepettis.com/work-avenue#/cultofdone/), 2009
+- [How to fix everything that's wrong with your meetings](https://www.fastcompany.com/90977309/how-fix-everything-thats-wrong-with-meetings?trk=feed_main-feed-card_feed-article-content), Kathleen Davis
