@@ -77,7 +77,21 @@ Devote one hour a day, five days a week, to learning something new.
 - **Agenda:** Circulate the topics to be covered in service of that purpose.
 - **Limit:** Set guidelines for how long the meeting and agenda items will take.
 
+## 10 Rules for Good Remote Meetings
+
+1. Question whether the meeting should happen in the first place
+2. Cancel unnecessary meetings
+3. Make meeting attendance optional and record meetings to encourage asynchronous participation
+4. Start on time and end on time with the "speedy meetings" setting in Google Calendar
+5. Ensure every meeting has an agenda - "no agenda, no attenda"
+6. Document everything live in the agenda notes
+7. Use the right tools
+8. Avoid hybrid calls (in-person and online) to level the playing field
+9. Unique surrounding should be celebrated, no need to have your background look 'professional'
+10. Empower team members to be the manager of their attention; it's okay to work on other tasks if a particular portion of a meeting doesn't apply to you
+
 ## References
 
 - Bre Pettis and Kio Stark,[_Cult of Done Manifesto_](http://brepettis.com/work-avenue#/cultofdone/), 2009
 - [How to fix everything that's wrong with your meetings](https://www.fastcompany.com/90977309/how-fix-everything-thats-wrong-with-meetings?trk=feed_main-feed-card_feed-article-content), Kathleen Davis
+- [10 ways to do remote meetings right](https://www.linkedin.com/feed/update/urn:li:activity:7156783152638660608/), Sid Sijbrandij
