@@ -90,8 +90,42 @@ Devote one hour a day, five days a week, to learning something new.
 9. Unique surrounding should be celebrated, no need to have your background look 'professional'
 10. Empower team members to be the manager of their attention; it's okay to work on other tasks if a particular portion of a meeting doesn't apply to you
 
+## Getting in the flow
+
+The nine dimensions of flow are:
+
+1. Challenge-skills balance
+2. Total concentration
+3. Clear goals
+4. Immediate feedback
+5. Transformation of time
+6. Feeling intrinsically rewarded
+7. Effortless
+8. Loss of self-consciousness
+9. Feeling of total control
+
+The follow actions can help achieve a flow state:
+
+1. Optimise your environment
+   a. Block focus time
+   b. Schedule breaks
+   c. Snooze Slack and phone notifications
+   d. Eliminate or reduce multitasking
+   e. Invest in noise-cancelling headphones
+   f. Get comfortable
+   g. Be mindful of meeting frequency when scheduling
+   h. Create a pre-flow ritual that cues your brain for work
+2. Map out your work
+   - Have a clear path for accomplishing your goal
+   - Strive for a good balance of challenging work - not too easy or too stressful
+3. Find joy in the work you're doing
+   - Clearly articulating outcomes can increases motivation to take on work and do it quickly
+   - Rethink why your doing a piece of work in the first place if not enjoyable
+
 ## References
 
 - Bre Pettis and Kio Stark,[_Cult of Done Manifesto_](http://brepettis.com/work-avenue#/cultofdone/), 2009
 - [How to fix everything that's wrong with your meetings](https://www.fastcompany.com/90977309/how-fix-everything-thats-wrong-with-meetings?trk=feed_main-feed-card_feed-article-content), Kathleen Davis
 - [10 ways to do remote meetings right](https://www.linkedin.com/feed/update/urn:li:activity:7156783152638660608/), Sid Sijbrandij
+- [Flow: The Psychology of Optimal Experience] by Mihaly Csikszentmihalyi
+- [How to get in the flow while coding (and why it’s important)](https://github.blog/2024-01-22-how-to-get-in-the-flow-while-coding-and-why-its-important/)
