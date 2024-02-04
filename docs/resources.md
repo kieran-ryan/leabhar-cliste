@@ -44,7 +44,8 @@ List of useful software engineering resources
 
 ## Guides
 
-- [Google Engineering Practices](https://google.github.io/eng-practices/) - general engineering best practices at Google
+- [GitLab University](https://university.gitlab.com) - Everything you need to know about DevSecOps
+- [Google Engineering Practices](https://google.github.io/eng-practices/) - General engineering best practices at Google
 - [The Good Docs Project](https://thegooddocsproject.dev) - Best practice templates and writing instructions for documenting open source software.
 
 ## Podcasts
