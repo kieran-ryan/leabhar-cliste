@@ -7,15 +7,26 @@ List of useful software engineering resources
 - [Anthony Shaw's Blog](https://tonybaloney.github.io/#blog) - Blog from a Python Advocacy Lead at Microsoft.
 - [Joel On Software](https://www.joelonsoftware.com) - Software blog of Joel Spolsky.
 - [Matt Wynne's Blog](https://mattwynne.net) - Blog from the co-founder of Cucumber Limited.
-- [Netflix Tech Blog](https://netflixtechblog.com) - Learn about Netflix’s world class engineering efforts, company culture, product developments and more.
-- [Pinterest Engineering Blog](https://medium.com/pinterest-engineering) - Inventive engineers building the first visual discovery engine, 300 billion ideas and counting.
-- [Spotify Engineering](https://engineering.atspotify.com) - Spotify's official technology blog.
 - [Spotify Research](https://research.atspotify.com/blog/) - Spotify's official research blog.
 - [The GitHub Blog](https://github.blog) - Updates, ideas, and inspiration from GitHub to help developers build and design software.
 - [The Overflow](https://stackoverflow.blog) - Essays, opinions, and advice on the act of computer programming, from Stack Overflow.
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com) - Observations across the software engineering industry.
 - [The ReadME Project](https://github.com/readme) - The ReadME Project amplifies the voices of the open source community: the maintainers, developers, and teams whose contributions move the world forward every day.
 - [Letters To A New Developer](https://letterstoanewdeveloper.com) - What I wish I had known when starting my development career, by Dan Moore.
+
+### Engineering Blogs
+
+- [AWS Architecture](https://aws.amazon.com/blogs/architecture/)
+- [Discord Engineering](https://discord.com/category/engineering)
+- [Dropbox Engineering](https://dropbox.tech)
+- [GitHub Engineering](https://github.blog/category/engineering/)
+- [Meta Engineering](https://engineering.fb.com)
+- [Netflix Tech Blog](https://netflixtechblog.com) - Learn about Netflix’s world class engineering efforts, company culture, product developments and more.
+- [Pinterest Engineering Blog](https://medium.com/pinterest-engineering) - Inventive engineers building the first visual discovery engine, 300 billion ideas and counting.
+- [Spotify Engineering](https://engineering.atspotify.com) - Spotify's official technology blog.
+- [Stripe Engineering](https://stripe.com/blog/engineering)
+- [Twitter Engineering](https://blog.twitter.com/engineering/en_us)
+- [Uber Engineering](https://www.uber.com/en-IE/blog/engineering/)
 
 ## Books
 
