@@ -29,7 +29,10 @@ List of useful software engineering resources
 - Effective Software Testing - Mauricio Aniche
 - Fluent Python - Luciano Ramalho
 - Fundamentals of Software Architecture - Neal Ford
+- [Kill It With Fire](https://nostarch.com/kill-it-fire) - Marianne Bellotti
+- [Legacy Code: First Aid Kit](https://understandlegacycode.com/first-aid-kit/) - Nicolas Carlo
 - Software Abstractions - Daniel Jackson
+- [Software Design X-Rays](https://pragprog.com/titles/atevol/software-design-x-rays/) - Adam Tornhill
 - Software Engineering - Ian Sommerville
 - Refactoring - Martin Fowler
 - The BDD Books - Discovery: Explore behaviour using examples - Gáspár Nagy and Seb Rose
@@ -41,6 +44,7 @@ List of useful software engineering resources
 - The Staff Engineer's Path - Reilly
 - The Software Craftsman - Sandro Mancuso
 - The Software Engineer's Guidebook - Gergely Orosz
+- [Your Code As A Crime Scene](https://pragprog.com/titles/atcrime2/your-code-as-a-crime-scene-second-edition/) - Adam Tornhill
 
 ## Guides
 
