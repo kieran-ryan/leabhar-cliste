@@ -122,9 +122,21 @@ The follow actions can help achieve a flow state:
    - Clearly articulating outcomes can increases motivation to take on work and do it quickly
    - Rethink why your doing a piece of work in the first place if not enjoyable
 
+## Goal Prioritisation
+
+Write down today's date and 10 goals you would like to achieve in the next 12 months in the present tense e.g. I earn, I achieve, I own. Take that list and identify which item would have the greatest positive impact. Then follow these 7 steps:
+
+1. Transfer that item to a clean sheet of paper
+2. Write it down
+3. Set a deadline
+4. Make a list of everything you must do to accomplish it
+5. Organise the list into a checklist
+6. Take action
+7. Do something every day
+
 ## References
 
-- Bre Pettis and Kio Stark,[_Cult of Done Manifesto_](http://brepettis.com/work-avenue#/cultofdone/), 2009
+- Bre Pettis and Kio Stark, [_Cult of Done Manifesto_](http://brepettis.com/work-avenue#/cultofdone/), 2009
 - [How to fix everything that's wrong with your meetings](https://www.fastcompany.com/90977309/how-fix-everything-thats-wrong-with-meetings?trk=feed_main-feed-card_feed-article-content), Kathleen Davis
 - [10 ways to do remote meetings right](https://www.linkedin.com/feed/update/urn:li:activity:7156783152638660608/), Sid Sijbrandij
 - [Flow: The Psychology of Optimal Experience] by Mihaly Csikszentmihalyi
