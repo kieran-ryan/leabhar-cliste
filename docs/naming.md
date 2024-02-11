@@ -20,9 +20,11 @@ Naming can be a contentious topic as it is heavily opinionated and open to prefe
   - e.g. use `delay` for a datetime object, instead of `delayDatetime`
 - Avoid use of `Base` or `Abstract` in naming i.e. use `Student` instead of `AbstractStudent`
 - Sometimes structure needs to be changed. Refactor if you have 'utils' or 'helpers', consider whether its right to have them in same module
+- Prefer "from" over "to", like `pdf_from_html` instead of `html_to_pdf`. This keeps related names physically closer, as in `pdf = pdf_from_html("file.html")`
 
 If you are still having trouble naming something, it probably means something needs to be restructured in the code.
 
 ## References
 
 - _Clean Code_, Robert C. Martin
+- [Small Naming Tip: Use "from" Instead of "to" in Function and Variable Names](https://lesleylai.info/en/from-vs-to/), Lesley Lai
