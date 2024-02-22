@@ -73,13 +73,21 @@ Shared ownership is really important. If the Tester or Developer modify the test
 
 ### Gherkin
 
-After familiarising yourself with the Gherkin Reference documentation, you should have a solid understanding of how to write tests with correct syntax.
+After familiarising yourself with the [Gherkin Reference documentation](https://cucumber.io/docs/gherkin/reference/), you should have a solid understanding of how to write tests with correct syntax.
 
 #### Common value in examples column
 
-Which out for the pitfalls of including unnecessary data in Scenario Outline examples tables. If you have a value that's common across examples, you can simply include it within the test step itself. This will reduce the volume of your test, improving maintainability.
+Watch out for the pitfalls of including unnecessary data in Scenario Outline examples. With a value that's common across examples, you can simply include it within the test step itself. This will reduce the volume of your test, improving maintainability.
 
 <table>
+<tr>
+<td>
+Before
+</td>
+<td>
+After
+</td>
+</tr>
 <tr>
 <td>
 
