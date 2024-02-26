@@ -118,6 +118,48 @@ Examples:
 </tr>
 </table>
 
+### Behave
+
+Behave is a Python-based test automation framework for behaviour driven development which executes against gherkin tests.
+
+A Behave step definition contains four key components:
+
+- a decorator: defining which gherkin keywords a definition is compatible to run with e.g. given, when, or then
+- a pattern: matching text used within steps
+- a function: containing the automation implementation
+- a context: passing global data to our step definition
+
+```python
+@decorator('pattern')
+def function(context):
+    ...
+```
+
+Parameters can be passed to step definitions. The upcoming step matches a subsequent step definition that is compatible only with 'given' steps. It specifically accepts integers as a parameter, representing the number of cucumbers.
+
+```gherkin
+Given I have 5 cucumbers
+```
+
+```python
+@given('I have {cucumbers:d} cucumbers')
+def step_implementation(context, cucumbers: int):
+    if not context.cucumbers > 0:
+        raise ValueError("Must at least have a cucumber")
+```
+
+With a Behave setup, configuration is typically defined in an `environment.py` module. Beyond settings, this module can be used to apply Behave hooks - which can execute code before and after different phases of a test run; such as on test run, tags, features, scenarios and steps.
+
+The sample environment module below includes two print statements. These can be replaced with environment setup and teardown operations, which are executed before and after each test run.
+
+```python
+def before_all(context):
+    print("Setting up environment...")
+
+def after_all(context):
+    print("Tearing down environment...")
+```
+
 ## References
 
 - Cucumber anti-patterns ([part 1](https://cucumber.io/blog/bdd/cucumber-antipatterns-part-one/)) and ([part 2](https://cucumber.io/blog/bdd/cucumber-anti-patterns-part-two/))
