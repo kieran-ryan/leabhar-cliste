@@ -18,11 +18,11 @@ Naming can be a contentious topic as it is heavily opinionated and open to prefe
 - Avoid types
 - Include units e.g. `delaySeconds` unless the type tells you
   - e.g. use `delay` for a datetime object, instead of `delayDatetime`
-- Avoid use of `Base` or `Abstract` in naming i.e. use `Student` instead of `AbstractStudent`
-- Sometimes structure needs to be changed. Refactor if you have 'utils' or 'helpers', consider whether its right to have them in same module
+- Avoid `Base` or `Abstract` i.e. use `Student` instead of `AbstractStudent`
 - Prefer "from" over "to", like `pdf_from_html` instead of `html_to_pdf`. This keeps related names physically closer, as in `pdf = pdf_from_html("file.html")`
+- Refactor if you have `utils` or `helpers`, consider whether its right to have them in same module
 
-If you are still having trouble naming something, it probably means something needs to be restructured in the code.
+If you are still having trouble naming something, your code may require restructuring.
 
 ## References
 

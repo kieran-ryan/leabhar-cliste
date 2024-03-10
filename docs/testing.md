@@ -118,6 +118,41 @@ Examples:
 </tr>
 </table>
 
+#### Meaningful steps
+
+Just as the guidance on [meaningful names](naming.md) suggests, aim for clarity when defining steps. This is often an outcome of [Three Amigos sessions](#behaviour-driven-development). However, always consider how an external audience or future reader might interpret them.
+
+<table>
+<tr>
+<td>
+Before
+</td>
+<td>
+After
+</td>
+</tr>
+<tr>
+<td>
+
+```gherkin
+Given I have logged in to the "BMS"
+# Understanding `BMS` is reliant on external context
+...
+```
+
+</td>
+<td>
+
+```gherkin
+Given I have logged in to the "Building Management System"
+# The meaning is definitive
+...
+```
+
+</td>
+</tr>
+</table>
+
 ### Behave
 
 Behave is a Python-based test automation framework for behaviour driven development which executes against gherkin tests.
