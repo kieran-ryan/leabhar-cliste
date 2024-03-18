@@ -4,9 +4,10 @@ List of useful software engineering resources
 
 ## Blogs
 
-- [Anthony Shaw's Blog](https://tonybaloney.github.io/#blog) - Blog from a Python Advocacy Lead at Microsoft.
+- [Anthony Shaw](https://tonybaloney.github.io/#blog) - Blog from a Python Advocacy Lead at Microsoft.
 - [Joel On Software](https://www.joelonsoftware.com) - Software blog of Joel Spolsky.
-- [Matt Wynne's Blog](https://mattwynne.net) - Blog from the co-founder of Cucumber Limited.
+- [Matt Wynne](https://mattwynne.net) - Blog from the co-founder of Cucumber Limited.
+- [Monica Powell](https://aboutmonica.com) - Software engineer, content creator & community organiser.
 - [Spotify Research](https://research.atspotify.com/blog/) - Spotify's official research blog.
 - [The GitHub Blog](https://github.blog) - Updates, ideas, and inspiration from GitHub to help developers build and design software.
 - [The Overflow](https://stackoverflow.blog) - Essays, opinions, and advice on the act of computer programming, from Stack Overflow.
@@ -42,6 +43,7 @@ List of useful software engineering resources
 - Fundamentals of Software Architecture - Neal Ford
 - [Kill It With Fire](https://nostarch.com/kill-it-fire) - Marianne Bellotti
 - [Legacy Code: First Aid Kit](https://understandlegacycode.com/first-aid-kit/) - Nicolas Carlo
+- The Concise Mastery - Robert Greene
 - Software Abstractions - Daniel Jackson
 - [Software Design X-Rays](https://pragprog.com/titles/atevol/software-design-x-rays/) - Adam Tornhill
 - Software Engineering - Ian Sommerville
@@ -61,7 +63,10 @@ List of useful software engineering resources
 
 - [GitLab University](https://university.gitlab.com) - Everything you need to know about DevSecOps
 - [Google Engineering Practices](https://google.github.io/eng-practices/) - General engineering best practices at Google
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - Information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
 - [The Good Docs Project](https://thegooddocsproject.dev) - Best practice templates and writing instructions for documenting open source software.
+- [The Odin Project](https://www.theodinproject.com) - The Odin Project empowers aspiring web developers to learn together for free.
+- [The Twelve-Factor App](https://12factor.net) - Methodology for building software-as-a-service apps
 
 ## Podcasts
 
