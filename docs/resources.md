@@ -8,6 +8,7 @@ List of useful software engineering resources
 - [Joel On Software](https://www.joelonsoftware.com) - Software blog of Joel Spolsky.
 - [Matt Wynne](https://mattwynne.net) - Blog from the co-founder of Cucumber Limited.
 - [Monica Powell](https://aboutmonica.com) - Software engineer, content creator & community organiser.
+- [Real Python](https://realpython.com/) - Python tutorials for developers of all skill levels, Python books and courses, Python news, code examples, articles, and more.
 - [Spotify Research](https://research.atspotify.com/blog/) - Spotify's official research blog.
 - [The GitHub Blog](https://github.blog) - Updates, ideas, and inspiration from GitHub to help developers build and design software.
 - [The Overflow](https://stackoverflow.blog) - Essays, opinions, and advice on the act of computer programming, from Stack Overflow.
@@ -64,12 +65,14 @@ List of useful software engineering resources
 - [GitLab University](https://university.gitlab.com) - Everything you need to know about DevSecOps
 - [Google Engineering Practices](https://google.github.io/eng-practices/) - General engineering best practices at Google
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - Information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
+- [Ninedots](https://ninedots.io/resources/) - Free guides and downloadable resources for candidates looking to amp up their preparation.
 - [The Good Docs Project](https://thegooddocsproject.dev) - Best practice templates and writing instructions for documenting open source software.
 - [The Odin Project](https://www.theodinproject.com) - The Odin Project empowers aspiring web developers to learn together for free.
 - [The Twelve-Factor App](https://12factor.net) - Methodology for building software-as-a-service apps
 
 ## Podcasts
 
+- [Command+Shift+Left](https://www.cmdshiftleft.com) - Navigate the treacherous waters of the software development, ops, and security world, while also diving into the hot current trends in the industry.
 - [Software Engineering Radio](https://www.se-radio.net/) - The podcast for professional software developers.
 - [The Changelog Podcast](https://changelog.com/podcast)
 - [The README Podcast](https://github.com/readme/podcast) - Your favourite open source projects, and the developers who make them happen. Listen in.
