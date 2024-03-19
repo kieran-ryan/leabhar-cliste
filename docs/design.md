@@ -59,10 +59,10 @@ Good design...
 
 ## Continuous Improvement Design Process
 
-1. Make requirements less dumb
-2. Try very hard to delete the part or process
-3. Simplify or optimise
-4. Accelerate cycle time - go faster
+1. Challenge and refine requirements
+2. Try to remove part or process
+3. Simplify and optimise
+4. Accelerate cycle time
 5. Automate
 
 ## References
@@ -70,3 +70,4 @@ Good design...
 - [Ten Principles for Good Design](https://designmuseum.org/discover-design/all-stories/what-is-good-design-a-quick-look-at-dieter-rams-ten-principles) by Dieter Rams
 - Nielsen, Jakob (2005), Ten usability heuristics
 - [Starbase Tour with Elon Musk](https://www.youtube.com/watch?v=t705r8ICkRw&t=0s), Everyday Astronaut
+- [Iteration at SpaceX](https://handbook.gitlab.com/handbook/values/iteration-examples/spacex/), GitLab Handbook
