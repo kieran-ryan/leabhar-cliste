@@ -70,7 +70,7 @@ Despite this, many struggle with tools they use every day, such as git.
 
 How can you change this?
 
-Set aside some time every now and then to understand your keyboard shortcuts intimately. Shortcut helpers - such as [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) in PyCharm - can notify you every time you clicked through a process that has an alternative keyboard shortcut. Reading the tool documentation or following a tutorial are always good options.
+Studies have shown using a keyboard is significantly faster compared to using a mouse. A light approach for learning keyboard shortcuts can be to set aside some time every now and then to understand them intimately. Shortcut helpers - such as [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) in PyCharm - can notify you every time you clicked through a process that has an alternative keyboard shortcut. Reading the tool documentation or following a tutorial are always good options. A more brutalist approach can be to restrict yourself completely, such as to disconnect your mouse for a week; this will force you to restrict yourself and to learn shortcuts much faster.
 
 ### Summary
 
@@ -79,3 +79,4 @@ The next time you find yourself leaving the keyboard and reaching for your mouse
 ## References
 
 - [Don't use short options in scripts](https://www.youtube.com/watch?v=OKqWy2dM2Jo) - Anthony Sottile ([@asottile](https://github.com/asottile))
+- [Physically disable your mouse for a week](https://twitter.com/mitchellh/status/1758547659282174092)
