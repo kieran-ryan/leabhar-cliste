@@ -66,6 +66,7 @@ List of useful software engineering resources
 - [Google Engineering Practices](https://google.github.io/eng-practices/) - General engineering best practices at Google
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - Information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
 - [Ninedots](https://ninedots.io/resources/) - Free guides and downloadable resources for candidates looking to amp up their preparation.
+- [Susie](https://philippedeb.github.io/susie) - Provides interesting knowledge for developers regarding sustainable software development.
 - [The Good Docs Project](https://thegooddocsproject.dev) - Best practice templates and writing instructions for documenting open source software.
 - [The Odin Project](https://www.theodinproject.com) - The Odin Project empowers aspiring web developers to learn together for free.
 - [The Twelve-Factor App](https://12factor.net) - Methodology for building software-as-a-service apps
