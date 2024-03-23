@@ -78,5 +78,8 @@ The next time you find yourself leaving the keyboard and reaching for your mouse
 
 ## References
 
+- [CLI tool to correct mistakes in previous command](https://github.com/nvbn/thefuck?tab=readme-ov-file#experimental-instant-mode)
 - [Don't use short options in scripts](https://www.youtube.com/watch?v=OKqWy2dM2Jo) - Anthony Sottile ([@asottile](https://github.com/asottile))
+- [Oh-My-Zsh git aliases](https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index)
 - [Physically disable your mouse for a week](https://twitter.com/mitchellh/status/1758547659282174092)
+- [Zsh plugin to help remember your aliases](https://github.com/djui/alias-tips)
