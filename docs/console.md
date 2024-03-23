@@ -16,6 +16,16 @@ radon cc -asj .
 radon cc --average --show-complexity --json .
 ```
 
+## Default To Defaults
+
+Software development is famous for intense debates that distract from problem solving without achieving meaningful outcomes: [single or double quotes](https://github.com/psf/black/issues/118), tabs versus spaces, best language, best framework, and so on.
+
+While these discussions may endure, we can reduce disagreements within teams and encourage progress.
+
+One strategy is following tool default settings. This ensures compliance with conventions while avoiding unnecessary complexity through customisation. We can enhance this approach by choosing highly opinionated tools, saving time and energy for more important matters.
+
+![image](https://external-preview.redd.it/EcwKGjcxeR77frd8nFeG2ggEpCSLtGbudsABDPGBTe8.png?auto=webp&s=738e71260d3ec2e1f8ec863ad3f1de9b6aff51ad)
+
 ## Taking Shortcuts
 
 When we consider opportunities to optimise our workflow, we typically focus on the larger and more evident chunks of time, such as reducing the number of meetings or blocking focus time for deep work. While improving these areas is very important, it is easy to overlook micro-optimisations. We can become accustomed to suboptimal behaviours through habit or be unaware of improved methodologies. These behaviours can add up to significant productivity loss and continuously hamper our focus.
@@ -78,8 +88,10 @@ The next time you find yourself leaving the keyboard and reaching for your mouse
 
 ## References
 
+- [Black - The uncompromising code formatter](https://black.readthedocs.io/en/stable/) - Opinionated Python formatter which eliminates discussion around code formatting.
 - [CLI tool to correct mistakes in previous command](https://github.com/nvbn/thefuck?tab=readme-ov-file#experimental-instant-mode)
 - [Don't use short options in scripts](https://www.youtube.com/watch?v=OKqWy2dM2Jo) - Anthony Sottile ([@asottile](https://github.com/asottile))
 - [Oh-My-Zsh git aliases](https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index)
 - [Physically disable your mouse for a week](https://twitter.com/mitchellh/status/1758547659282174092)
+- [The Power of Defaults](https://blog.codinghorror.com/the-power-of-defaults/)
 - [Zsh plugin to help remember your aliases](https://github.com/djui/alias-tips)
