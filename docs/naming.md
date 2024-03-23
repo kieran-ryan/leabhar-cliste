@@ -2,27 +2,20 @@
 
 > Is it a bird? Is it a plane? No! It's a... var_1?!
 
-Phil Karlton famously said:
+As Phil Karlton famously quipped, the two hardest aspects of Computer Science are cache invalidation and naming things.
 
-> There are only two hard things in Computer Science: cache invalidation and naming things
+Naming can indeed be a subject of much debate due to its subjective nature and room for interpretation. While it takes time to choose meaningful names, the clarity it brings is a worthy investment.
 
-Naming can be a contentious topic as it is heavily opinionated and open to preference and interpretation. Although choosing good names takes time, it saves more than it takes.
+Here are some guidelines to help you achieve meaningful names:
 
-- Be explicit, not implicit
-  - Descriptive
-  - Unambiguous
-- Be consistent - and aim to follow convention
-- Use pronounceable words - programming requires collaboration and discussion
-- Use searchable words - help others find what they are looking for
-- Avoid abbreviations
-- Avoid types
-- Include units e.g. `delaySeconds` unless the type tells you
-  - e.g. use `delay` for a datetime object, instead of `delayDatetime`
-- Avoid `Base` or `Abstract` i.e. use `Student` instead of `AbstractStudent`
-- Prefer "from" over "to", like `pdf_from_html` instead of `html_to_pdf`. This keeps related names physically closer, as in `pdf = pdf_from_html("file.html")`
-- Refactor if you have `utils` or `helpers`, consider whether its right to have them in same module
-
-If you are still having trouble naming something, your code may require restructuring.
+- Prioritise clarity and avoid ambiguity. Names should be descriptive and explicit.
+- Maintain consistency. Strive to follow established conventions.
+- Use pronounceable and searchable words. Programming is a collaborative effort, and others may need to discuss or locate your code.
+- Avoid abbreviations and types.
+- Include units in names, such as `delaySeconds`, unless the type already implies it - such as `delay` for a datetime object, rather than `delayDatetime`.
+- Refrain from using `Base` or `Abstract` - such as `Student` instead of `AbstractStudent`.
+- Favour "from" over "to", such as `pdf_from_html` instead of `html_to_pdf`. This keeps related names closer, as in `pdf = pdf_from_html("file.html")`.
+- If you find yourself creating `utils` or `helpers`, reconsider their placement. Difficulty in naming might signal a need for code restructuring.
 
 ## References
 

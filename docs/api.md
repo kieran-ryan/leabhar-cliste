@@ -1,28 +1,26 @@
 # API
 
-There are five key elements of discoverability:
+When designing APIs, it's crucial to focus on discoverability, intuitiveness, flexibility, and simplicity.
 
-- affordances
-- signifiers
-- constraints
-- mappings
-- feedback
+## Discoverability
 
-APIs should have the following tenets:
+Discoverability is about making it easy for users to find and utilise the features of your API. There are five key elements of discoverability:
 
-- intuitive
-  - use domain nomenclature
-  - clumsy naming hints at clumsy abstractions
-  - provide symmetry
-- flexible
-  - provide sane defaults
-    - make optional behaviour as optional keyword arguments
-  - minimise repetition
-  - let users be lazy
-- simple
-  - provide composable functions
-  - leverage language idioms
-  - provide convenience
+- **Affordances:** Possible actions that users can take with your API. Good affordances are intuitive and easy to understand.
+- **Signifiers:** Indicators that point to the affordances. In an API, good signifiers could be well-named endpoints that clearly indicate their functionality.
+- **Constraints:** Limitations on what can be done with your API. Constraints can guide users towards correct usage.
+- **Mappings:** Relationships between actions and outcomes. Good mappings in an API make it clear what will happen when a certain request is made.
+- **Feedback:** Response users get after they perform an action. Good feedback in an API is informative and helps users understand the result of their actions.
+
+## Tenets of Good APIs
+
+A well-designed API should be:
+
+- **Intuitive:** It should use domain-specific language, making it easier for users familiar with the domain to understand. Clumsy naming often indicates clumsy abstractions. The API should also provide symmetry, meaning similar actions have similar interfaces.
+- **Flexible:** It should provide sane defaults, but also allow users to customise behaviours through optional keyword arguments. It should minimise repetition, allowing users to achieve their goals with less code. In essence, a good API lets users be lazy.
+- **Simple:** It should provide composable functions, allowing users to build more complex operations from simpler ones. It should leverage language idioms, making it feel like a natural extension of the programming language. Lastly, it should provide convenience, making common tasks easy to perform.
+
+By following these principles, you can create APIs that are easy to learn, use, and remember.
 
 ## References
 
