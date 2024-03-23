@@ -10,7 +10,7 @@ While shorthand names may be intuitive when written, or to a tool expert...
 radon cc -asj .
 ```
 
-...long names provide a more meaningful, human-readable representation at all times for all readers.
+...long names provide a meaningful representation always for all readers.
 
 ```console
 radon cc --average --show-complexity --json .
