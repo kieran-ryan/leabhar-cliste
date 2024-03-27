@@ -75,6 +75,25 @@ Shared ownership is really important. If the Tester or Developer modify the test
 
 After familiarising yourself with the [Gherkin Reference documentation](https://cucumber.io/docs/gherkin/reference/), you should have a solid understanding of how to write tests with correct syntax.
 
+```gherkin
+Feature: Gherkin
+
+  Scenario: Authoring tests in Gherkin
+    Given I am working on an exciting new feature
+    When I author my tests in Gherkin
+    Then my tests are <value>
+
+    Examples:
+      | value          |
+      | atomic         |
+      | maintainable   |
+      | reusable       |
+      | standardised   |
+      | traceable      |
+      | understandable |
+      | awesome!       |
+```
+
 #### Common value in examples column
 
 Watch out for the pitfalls of including unnecessary data in Scenario Outline examples. With a value that's common across examples, you can simply include it within the test step itself. This will reduce the volume of your test, improving maintainability.
