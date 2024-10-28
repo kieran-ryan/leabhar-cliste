@@ -18,6 +18,7 @@ Here are some guidelines to help you achieve meaningful names:
 - A long, descriptive name is better than a name that is short and ambigious.
   - Long names can impact horizontal scrolling and make it harder to analyse associate code at a glance. This can however hint that code design can be improved.
   - Avoid abbreviations and types.
+  - Follow the [Single Truth Rule](https://ruthlesslyhelpful.net/2012/02/25/rules-for-commenting-code), using expressive naming _"The compiler should use the same variable to represent the same single true meaning that the human reader understand"_ where a comment may have been used as mitigation for poor naming. If a comment says what the code **could** say, change the code.
 - If you find yourself creating `utils` or `helpers`, reconsider their placement. Difficulty in naming might signal a need for code restructuring.
 
 ### Favour 'from' over 'to'
@@ -46,6 +47,9 @@ This aligns closely with the functional programming idiom of naming the function
 
 ## References
 
+- [Do's and Don'ts of Commenting](https://blog.openreplay.com/dos-and-donts-of-commenting-code/?utm_source=tldrwebdev)
 - _Meaningful Names, Chapter 2 - Clean Code_, Tim Ottinger
 - [Meaningful Names Revisited](https://www.industriallogic.com/blog/meaningful-names-revisited/), Tim Ottinger
+- [Rules for Commenting Code](https://ruthlesslyhelpful.net/2012/02/25/rules-for-commenting-code/), Ruthlessly Helpful, Stephen Ritchie
+- [Self-documenting Code](https://lackofimagination.org/2024/10/self-documenting-code/?utm_source=tldrwebdev)
 - [Small Naming Tip: Use "from" Instead of "to" in Function and Variable Names](https://lesleylai.info/en/from-vs-to/), Lesley Lai

@@ -15,6 +15,9 @@ Complexity is caused by:
 - **obscurity** - occur when important information is not obvious
   - creates **unknown unknowns** and contributes to **cognitive load**
 
+Modern software systems are intrinsic with complexity, and the skill requirements that constitute _full stack_ development are evergrowing. However, movements to revert to fundamentals - such as [Radical Simplicity](https://www.radicalsimpli.city/) - appear to be gaining traction back to a leaner stack.
+
 ## References
 
-- John Ousterhout, _A Philosophy of Software Design_
+- _A Philosophy of Software Design_, John Ousterhout
+- _[Radical Simplicity in Technology](https://www.radicalsimpli.city/)_, Stephen Schmidt

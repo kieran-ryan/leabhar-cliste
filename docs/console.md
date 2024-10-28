@@ -40,7 +40,7 @@ Seek out opportunities to transform tedious manual tasks into powerful automatio
 
 Spend some time to filter out noise from emails, optimise your tooling, or even build an ecosystem of tools to support your development; the possibilities are limitless.
 
-For example, you could automate formatting that you manually apply to maintain a clean code base, just like [pyprojectsort](https://github.com/kieran-ryan/pyprojectsort).
+For instance, you could automate formatting that you manually apply to maintain a clean code base, just like [pyprojectsort](https://github.com/kieran-ryan/pyprojectsort).
 
 ### Alias
 
@@ -95,3 +95,5 @@ The next time you find yourself leaving the keyboard and reaching for your mouse
 - [Physically disable your mouse for a week](https://twitter.com/mitchellh/status/1758547659282174092)
 - [The Power of Defaults](https://blog.codinghorror.com/the-power-of-defaults/)
 - [Zsh plugin to help remember your aliases](https://github.com/djui/alias-tips)
+- [Learn how to build tools](https://letterstoanewdeveloper.com/2023/05/29/learn-how-to-build-tools/) - Letters to a New Developer
+- [Do they deserve the gift of your keystrokes](https://www.hanselman.com/blog/do-they-deserve-the-gift-of-your-keystrokes) - Scott Hanselman

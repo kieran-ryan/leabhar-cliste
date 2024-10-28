@@ -136,6 +136,7 @@ Write down today's date and 10 goals you would like to achieve in the next 12 mo
 
 ## References
 
+- 📖 12 Week Year - Brian P. Morgan
 - Bre Pettis and Kio Stark, [_Cult of Done Manifesto_](http://brepettis.com/work-avenue#/cultofdone/), 2009
 - [How to fix everything that's wrong with your meetings](https://www.fastcompany.com/90977309/how-fix-everything-thats-wrong-with-meetings?trk=feed_main-feed-card_feed-article-content), Kathleen Davis
 - [10 ways to do remote meetings right](https://www.linkedin.com/feed/update/urn:li:activity:7156783152638660608/), Sid Sijbrandij
