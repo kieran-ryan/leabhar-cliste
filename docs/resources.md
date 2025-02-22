@@ -10,6 +10,7 @@ List of useful software engineering resources
 - [Joel On Software](https://www.joelonsoftware.com) - Software blog of Joel Spolsky.
 - [Matt Wynne](https://mattwynne.net) - Blog from the co-founder of Cucumber Limited.
 - [Monica Powell](https://aboutmonica.com) - Software engineer, content creator & community organiser.
+- [Paul Graham](https://paulgraham.com/articles.html) - Co-founder of the startup accelerator and seed capital firm Y Combinator.
 - [Real Python](https://realpython.com/) - Python tutorials for developers of all skill levels, Python books and courses, Python news, code examples, articles, and more.
 - [Spotify Research](https://research.atspotify.com/blog/) - Spotify's official research blog.
 - [The GitHub Blog](https://github.blog) - Updates, ideas, and inspiration from GitHub to help developers build and design software.
