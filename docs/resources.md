@@ -5,6 +5,7 @@ List of useful software engineering resources
 ## Blogs
 
 - [Anthony Shaw](https://tonybaloney.github.io/#blog) - Blog from a Python Advocacy Lead at Microsoft.
+- [Charlier Marsh](https://www.crmarsh.com) - Founder of [Astral](https://astral.sh) and creator of [Ruff](https://astral.sh/ruff), an extremely fast Python linter, written in Rust.
 - [Fabrizio Ferri Benedetti](https://passo.uno/) - Technical writing blog
 - [Jason Fried](https://world.hey.com/jason) - Co-Founder and CEO at 37signals.
 - [Joel On Software](https://www.joelonsoftware.com) - Software blog of Joel Spolsky.
