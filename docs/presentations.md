@@ -1,4 +1,6 @@
-# Presentations
+# Communication
+
+Keep your communication clear, simple, and make sure progress, blockers, and decisions are easy to track.
 
 ## Improve your technical showcase
 
@@ -14,3 +16,8 @@ Transforming this...
 
 These tools are available at operating system level - such as [KeyCastr](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwju8Z_w1JuCAxWJS8AKHRF1DKMQFnoECA0QAQ&url=https%3A%2F%2Fgithub.com%2Fkeycastr%2Fkeycastr&usg=AOvVaw3U6JfKNAt9iD2TlnTHVmNz&opi=89978449) on MacOS or [KeyPosé](https://github.com/AxDSan/KeyPose) on Windows; and from within your IDE -
 Such as [Screencast Mode](https://code.visualstudio.com/updates/v1_31#_screencast-mode) in Visual Studio Code or [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant) in JetBrains IDEs.
+
+## References
+
+- [How to speak](https://youtu.be/Unzc731iCUY?si=9bpBT-65Xi75c2gG), MIT, Patrick Winston
+- https://github.blog/developer-skills/career-growth/how-to-thrive-as-a-junior-engineer-tips-and-insights/

@@ -142,3 +142,4 @@ Write down today's date and 10 goals you would like to achieve in the next 12 mo
 - [10 ways to do remote meetings right](https://www.linkedin.com/feed/update/urn:li:activity:7156783152638660608/), Sid Sijbrandij
 - [Flow: The Psychology of Optimal Experience] by Mihaly Csikszentmihalyi
 - [How to get in the flow while coding (and why it’s important)](https://github.blog/2024-01-22-how-to-get-in-the-flow-while-coding-and-why-its-important/)
+- [The Productivity Paradox: Unveiling the Difference Between Being Productive and Being Busy](https://www.cpijobs.com/2023/10/17/the-productivity-paradox-unveiling-the-difference-between-being-productive-and-being-busy/?trk=feed_main-feed-card_feed-article-content), 17 Oct 2023 - CPI

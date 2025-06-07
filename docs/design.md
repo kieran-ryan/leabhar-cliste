@@ -67,6 +67,7 @@ Good design...
 
 ## References
 
+- [TigerBeetle Style Guide](https://github.com/tigerbeetle/tigerbeetle/blob/fc04ee56fc890919bda8ee894542b4abd031818d/docs/TIGER_STYLE.md)
 - [Ten Principles for Good Design](https://designmuseum.org/discover-design/all-stories/what-is-good-design-a-quick-look-at-dieter-rams-ten-principles) by Dieter Rams
 - Nielsen, Jakob (2005), Ten usability heuristics
 - [Starbase Tour with Elon Musk](https://www.youtube.com/watch?v=t705r8ICkRw&t=0s), Everyday Astronaut

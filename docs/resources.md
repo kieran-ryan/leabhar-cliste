@@ -4,21 +4,33 @@ List of useful software engineering resources
 
 ## Blogs
 
+### Personal
+
+- [Andrej Karpathy](https://karpathy.bearblog.dev/blog/) - Was director of AI @Tesla and on founding team of @OpenAI.
 - [Anthony Shaw](https://tonybaloney.github.io/#blog) - Blog from a Python Advocacy Lead at Microsoft.
-- [Charlier Marsh](https://www.crmarsh.com) - Founder of [Astral](https://astral.sh) and creator of [Ruff](https://astral.sh/ruff), an extremely fast Python linter, written in Rust.
+- [Charlie Marsh](https://www.crmarsh.com) - Founder of [Astral](https://astral.sh) and creator of [Ruff](https://astral.sh/ruff), an extremely fast Python linter, written in Rust.
+- [Dan Luu](https://danluu.com) - Understandable explanations of technical topics.
+- [Dan Moore](https://letterstoanewdeveloper.com) - Letters To A New Developer - What I wish I had known when starting my development career.
 - [Fabrizio Ferri Benedetti](https://passo.uno/) - Technical writing blog
 - [Jason Fried](https://world.hey.com/jason) - Co-Founder and CEO at 37signals.
-- [Joel On Software](https://www.joelonsoftware.com) - Software blog of Joel Spolsky.
+- [Jim Grey](https://dev.jimgrey.net) - Software management.
+- [Joel Spolsky](https://www.joelonsoftware.com) - Joel on Software - Software blog.
 - [Matt Wynne](https://mattwynne.net) - Blog from the co-founder of Cucumber Limited.
 - [Monica Powell](https://aboutmonica.com) - Software engineer, content creator & community organiser.
 - [Paul Graham](https://paulgraham.com/articles.html) - Co-founder of the startup accelerator and seed capital firm Y Combinator.
+- [Tim Ottinger](https://www.industriallogic.com/people/tottinge/) - Programmer, author, manager, trainer, consultant, and coach. His style is practical and hands-on, anchored in agile and traditional practices.
+
+### Software Blogs
+
+- [Engineering Leadership](https://newsletter.eng-leadership.com) - Weekly newsletter for becoming a great engineering leader. By Gregor Ojstersek.
 - [Real Python](https://realpython.com/) - Python tutorials for developers of all skill levels, Python books and courses, Python news, code examples, articles, and more.
 - [Spotify Research](https://research.atspotify.com/blog/) - Spotify's official research blog.
+- [The Caring Techie Newletter](https://www.thecaringtechie.com) - The people skills you need to turn your potential into performance in Tech. Lessons from Google, Uber, and startups.
+- [The Conscious Leader](https://tahahussain.substack.com) - Carve your path to exceptional engineering leadership. Blend technical skills with emotional intelligence. It's where the top 10% are made. By Taha Hussain.
 - [The GitHub Blog](https://github.blog) - Updates, ideas, and inspiration from GitHub to help developers build and design software.
 - [The Overflow](https://stackoverflow.blog) - Essays, opinions, and advice on the act of computer programming, from Stack Overflow.
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com) - Observations across the software engineering industry.
 - [The ReadME Project](https://github.com/readme) - The ReadME Project amplifies the voices of the open source community: the maintainers, developers, and teams whose contributions move the world forward every day.
-- [Letters To A New Developer](https://letterstoanewdeveloper.com) - What I wish I had known when starting my development career, by Dan Moore.
 
 ### Engineering Blogs
 
@@ -29,7 +41,7 @@ List of useful software engineering resources
 - [Google Testing](https://testing.googleblog.com/)
 - [Meta Engineering](https://engineering.fb.com)
 - [Netflix Tech Blog](https://netflixtechblog.com) - Learn about Netflix’s world class engineering efforts, company culture, product developments and more.
-- [Pinterest Engineering Blog](https://medium.com/pinterest-engineering) - Inventive engineers building the first visual discovery engine, 300 billion ideas and counting.
+- [Pinterest Engineering](https://medium.com/pinterest-engineering) - Inventive engineers building the first visual discovery engine, 300 billion ideas and counting.
 - [Spotify Engineering](https://engineering.atspotify.com) - Spotify's official technology blog.
 - [Stripe Engineering](https://stripe.com/blog/engineering)
 - [Twitter Engineering](https://blog.twitter.com/engineering/en_us)
@@ -37,6 +49,7 @@ List of useful software engineering resources
 
 ## Books
 
+- 14 Habits of Highly Productive Developers - Zeno Rocha
 - 97 Things Every Software Developer Should Know - Kevlin Henney
 - A Philosophy of Software Design - John Ousterhout
 - Accelerate - Nicole Forsgren, Jez Humble and Gene Kim
@@ -75,15 +88,26 @@ List of useful software engineering resources
 ## Guides
 
 - [Agile Manifesto](https://agilemanifesto.org/)
+- [Amazon Principal Engineering Community Tenets](https://amazon.jobs/content/en/teams/principal-engineering/tenets) - guiding principals focused on achieving the company mission and vision.
+- [Calmcode](https://calmcode.io) - short, simple, video tutorials for modern ideas and open source tools.
 - [GitLab University](https://university.gitlab.com) - Everything you need to know about DevSecOps
 - [Google Engineering Practices](https://google.github.io/eng-practices/) - General engineering best practices at Google
+- [Khan Academy Engineering Career Development](https://docs.google.com/document/u/0/d/1qr0d05X5-AsyDYqKRCfgGGcWSshTMd_vfTggfhDpbls/mobilebasic?pli=1) - Engineering career guidance and feedback.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - Information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
-- [Ninedots](https://ninedots.io/resources/) - Free guides and downloadable resources for candidates looking to amp up their preparation.
+- [Ninedots](https://ninedots.io/resources/) - Guides and downloadable resources for candidates looking to amp up their preparation.
+- [Python Developer Tooling Handbook](https://pydevtools.com/handbook/) - understand the ecosystem of tools used to make Python development easier and more productive.
+- [Scientific Python](https://learn.scientific-python.org/development/guides/) - Guidance for those making or maintaining a package and wanting to follow modern best practices in Python.
 - [Software Craftsmanship Manifesto](https://manifesto.softwarecraftsmanship.org/)
 - [Susie](https://philippedeb.github.io/susie) - Provides interesting knowledge for developers regarding sustainable software development.
 - [The Good Docs Project](https://thegooddocsproject.dev) - Best practice templates and writing instructions for documenting open source software.
 - [The Odin Project](https://www.theodinproject.com) - The Odin Project empowers aspiring web developers to learn together for free.
 - [The Twelve-Factor App](https://12factor.net) - Methodology for building software-as-a-service apps
+
+## Design
+
+Design inspiration.
+
+- [Information is beautiful](https://informationisbeautiful.net) - turn information and knowledge into interactive graphics, stories, live performances and books.
 
 ## Podcasts
 
