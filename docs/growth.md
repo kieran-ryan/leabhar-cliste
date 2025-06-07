@@ -5,7 +5,7 @@
 - 🧘‍♂️ Focus on depth
 - 🥊 Fight imposter syndrome
 - 🕵️‍♂️ Seek answers independently first
-- ⏰ Know _when_ to ask for help
+- ⌛️ Know _when_ to ask for help
 - 👉 Know _what_ to ask
 - 💪 Asking questions is a strength
 - 📰 Make growth and progress visible
