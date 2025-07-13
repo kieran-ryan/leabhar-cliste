@@ -19,4 +19,4 @@ FileNotFoundError: [Errno 2] No such file or directory
 ## References
 
 - _[Error-Message Guidelines](https://www.nngroup.com/articles/error-message-guidelines/)_, Tim Neusesser and Evan Sunwall
-- [Exceptionally Tricky: Good errors in bad situations](https://youtu.be/2ziiIu_Xl2o?si=uH-Dkhk_8XSERjL2), Alistari Lynn
+- [Exceptionally Tricky: Good errors in bad situations](https://youtu.be/2ziiIu_Xl2o?si=uH-Dkhk_8XSERjL2), Alistair Lynn
