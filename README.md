@@ -11,28 +11,21 @@ Programming practices, principles and concepts.
 
 ## Building the Docs
 
-To build the site from source, clone the repo and run the following commands:
+The documentation can be built through [uv](https://docs.astral.sh/uv).
 
-```console
-pip install --requirement requirements.txt
-mkdocs build
-```
-
-To serve and access the site from your browser run:
-
-```console
-mkdocs serve
-```
+| Command             | Purpose                               |
+| ------------------- | ------------------------------------- |
+| uv run mkdocs build | 📦 Build the documentation            |
+| uv run mkdocs serve | 🚀 Run the documentation via a server |
 
 ## Contributing
 
-Contributions to this project are most welcome. Feel free to [create an issue](https://github.com/kieran-ryan/leabhar-cliste/issues/new) or to raise a Pull Request.
+Contributions are welcome for `leabhar-cliste`, and can be made by raising [issues](https://github.com/kieran-ryan/leabhar-cliste/issues) or [pull requests](https://github.com/kieran-ryan/leabhar-cliste/pulls).
 
 It is recommended to use [Visual Studio Code](https://code.visualstudio.com) and [pre-commit](https://pre-commit.com) when working with the source code, which are pre-configured within the project.
 
 ```console
-pip install --requirement requirements.txt
-pre-commit install
+uv run pre-commit install
 ```
 
 ## License
