@@ -1,0 +1,1543 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../security/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Testing - Leabhar Cliste</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="time">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#testing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Leabhar Cliste" class="md-header__button md-logo" aria-label="Leabhar Cliste" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Leabhar Cliste
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Testing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="time"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Leabhar Cliste
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../api/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  API
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../business/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Business
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../complexity/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Complexity
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../console/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Console
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../database/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Database
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../design/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Design
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../errors/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Errors
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../growth/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Growth
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../laws/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Laws
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../mindset/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Mindset
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../naming/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Naming
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../presentations/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Communication
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../productivity/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Productivity
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../quotes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Quotes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../resources/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Resources
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../security/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Security
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Testing
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Leabhar Cliste" class="md-nav__button md-logo" aria-label="Leabhar Cliste" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Leabhar Cliste
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Leabhar Cliste
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../business/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Business
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../complexity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Complexity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../console/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Console
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Database
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../growth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Growth
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../laws/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Laws
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mindset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mindset
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../naming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Naming
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Communication
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../productivity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Productivity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quotes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quotes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Security
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Testing
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit Testing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#root-cause-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Root Cause Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#behaviour-driven-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Behaviour Driven Development
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Behaviour Driven Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gherkin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gherkin
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gherkin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-value-in-examples-column" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common value in examples column
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meaningful-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meaningful steps
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#behave" class="md-nav__link">
+    <span class="md-ellipsis">
+      Behave
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-automation-manifesto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test Automation Manifesto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Test Automation Manifesto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-automation-scorecard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test Automation Scorecard
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Test Automation Scorecard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#maintainability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maintainability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-it-relevant-to-the-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is it relevant to the business?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-traceability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clear traceability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reusability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reusability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manageable-and-scalable-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manageable and scalable test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessible-across-company" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessible across company
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="testing">Testing</h1>
+<h2 id="unit-testing">Unit Testing</h2>
+<p>A good unit test should be:</p>
+<ul>
+<li>idempotent - can be run over and over and is always green</li>
+<li>atomic - not dependent on other tests and can be executed in any order in a test suite</li>
+<li>fast - run quickly so it does not slow the development process. All unit test dependencies should be mocked</li>
+<li>meaningful title - explains what is being tested e.g. <strong>testWhenShould</strong> pattern</li>
+<li>split into AAA - Arrange (setup), Act (execute), Assert (validate); also known as Given, When, Then OR Context, Action, Outcome</li>
+</ul>
+<p>Otherwise our tests will become <strong>flaky</strong>; and will end up being flagged with an ignore tag or commented/deleted from the codebase altogether.</p>
+<p>Not mocking might be okay (debatable) for ORM heavy apps where we can launch a database in memory as this may lead to a more accurate test by relying on actual database data and operations rather than ORM mocks.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&lt;testWhenShould&gt; (
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  // setup
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  dependencyOne = mockDependencyOne.return({...});
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  dependencyTwo = mockDependencyTwo.return({...});
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  objectToTest - new ObjectToTest(dependencyOne, dependencyTwo);
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>  // execute
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>  result = objectToTest.someFunc();
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>  // validate
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>  assertEquals(result, expectedResult);
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>)
+</code></pre></div>
+<p>Once you fix a bug, check why the previous unit tests did not uncover it and update them accordingly.</p>
+<h2 id="root-cause-analysis">Root Cause Analysis</h2>
+<p>Root cause analysis is a process for sifting through available information to determine what's really causing a problem in order to find a solution.</p>
+<p>Start by ascertaining:</p>
+<ul>
+<li>Who does the problem affect?</li>
+<li>What harm does it cause?</li>
+<li>Can that harm be mitigated?</li>
+<li>What is the business impact if the issue is not addressed?<ul>
+<li>How long before that happens?</li>
+</ul>
+</li>
+</ul>
+<p>Then move onto the analysis, using one of the following processes:</p>
+<ul>
+<li>Five Whys - Ask "Why" five times, getting deeper towards the root cause with each iteration</li>
+<li>Fishbone Analysis<ul>
+<li>Start with the problem statement and a horizontal line leading up to it</li>
+<li>Brainstorm the major categories of possible causes by asking "Why does this problem occur?" several times. Add them to the fishbone arrangment</li>
+<li>Ask the same question for each category, giving you subcategories and smaller fishbones</li>
+<li>Repeat the process, pushing for more potential causes in each category until the team runs out of ideas</li>
+<li>When finished, use a blind vote to agree on the one suggestion that the group believes to be the true root cause</li>
+</ul>
+</li>
+</ul>
+<p>Through this process, a root cause can be determined which will inform the required solution.</p>
+<h2 id="behaviour-driven-development">Behaviour Driven Development</h2>
+<p>It is critical that tests written in a domain language are not done so in isolation, and that there is a mixture of technical and non-technical members present. This is where we typically apply a <em>Three Amigos</em> approach with three distinct roles present in the authoring process. The roles are often a Business-Analyst/Product-Owner, a developer and a tester.</p>
+<p><strong>Why is a <em>Three Amigos</em> approach so important for writing good quality Tests in a domain language?</strong></p>
+<p>Each stakeholder brings unique perspectives. Without these sessions, we prevent the test representing a common understanding, and key opportunities are missed to thrash out and expose those differences.</p>
+<p>For example, Scenarios written by non-technical team members very often can't be automated without being changed. Once that happens, the test stops being the thing the Product Owner believed in. Further, the technical members can become viewed as 'implementers' who automate and develop deliverables, rather being part of the formulation process.</p>
+<p>Similarly, if technical members write the tests in isolation without input from the Product Owner, the tests can very quickly become too low-level and difficult to understand.</p>
+<p>The three roles bring balance in finding an appropriate scope for the test.</p>
+<p>Shared ownership is really important. If the Tester or Developer modify the tests in isolation without input from the Product Owner, authoring tests very quickly becomes a task consigned to technical members; and visa-versa.</p>
+<h3 id="gherkin">Gherkin</h3>
+<p>After familiarising yourself with the <a href="https://cucumber.io/docs/gherkin/reference/">Gherkin Reference documentation</a>, you should have a solid understanding of how to write tests with correct syntax.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">Feature:</span><span class="nf"> Gherkin</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nf">  </span><span class="k">Scenario:</span><span class="nf"> Authoring tests in Gherkin</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="k">    Given </span><span class="nf">I am working on an exciting new feature</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="nf">    </span><span class="k">When </span><span class="nf">I author my tests in Gherkin</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="nf">    </span><span class="k">Then </span><span class="nf">my tests are </span><span class="nv">&lt;value&gt;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="nf">    </span><span class="k">Examples:</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="k">      |</span><span class="nv"> value</span><span class="k">          |</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="k">      |</span><span class="s"> atomic</span><span class="k">         |</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="k">      |</span><span class="s"> maintainable</span><span class="k">   |</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="k">      |</span><span class="s"> reusable</span><span class="k">       |</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="k">      |</span><span class="s"> standardised</span><span class="k">   |</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="k">      |</span><span class="s"> traceable</span><span class="k">      |</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="k">      |</span><span class="s"> understandable</span><span class="k"> |</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="k">      |</span><span class="s"> awesome!</span><span class="k">       |</span>
+</code></pre></div>
+<h4 id="common-value-in-examples-column">Common value in examples column</h4>
+<p>Watch out for the pitfalls of including unnecessary data in Scenario Outline examples. With a value that's common across examples, you can simply include it within the test step itself. This will reduce the volume of your test, improving maintainability.</p>
+<table>
+<tr>
+<td>
+Before
+</td>
+<td>
+After
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">Given </span><span class="nf">I have </span><span class="nv">&lt;quantity&gt;</span><span class="nf"> pieces of </span><span class="nv">&lt;food&gt;</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nf">...</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="k">Examples:</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="k">  |</span><span class="nv"> quantity</span><span class="k"> |</span><span class="nv"> food</span><span class="k">     |</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="k">  |</span><span class="s">       10</span><span class="k"> |</span><span class="s"> gherkin</span><span class="k">  |</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="k">  |</span><span class="s">       10</span><span class="k"> |</span><span class="s"> pickle</span><span class="k">   |</span>
+</code></pre></div>
+
+</td>
+<td>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">Given </span><span class="nf">I have </span><span class="s">10</span><span class="nf"> pieces of </span><span class="nv">&lt;food&gt;</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nf">...</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="k">Examples:</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="k">  |</span><span class="nv"> food</span><span class="k">     |</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="k">  |</span><span class="s"> gherkins</span><span class="k"> |</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="k">  |</span><span class="s"> pickles</span><span class="k">  |</span>
+</code></pre></div>
+
+</td>
+</tr>
+</table>
+
+<h4 id="meaningful-steps">Meaningful steps</h4>
+<p>Just as the guidance on <a href="../naming/">meaningful names</a> suggests, aim for clarity when defining steps. This is often an outcome of <a href="#behaviour-driven-development">Three Amigos sessions</a>. However, always consider how an external audience or future reader might interpret them.</p>
+<table>
+<tr>
+<td>
+Before
+</td>
+<td>
+After
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">Given </span><span class="nf">I have logged in to the &quot;</span><span class="s">BMS</span><span class="nf">&quot;</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c"># Understanding `BMS` is reliant on external context</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nf">...</span>
+</code></pre></div>
+
+</td>
+<td>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">Given </span><span class="nf">I have logged in to the &quot;</span><span class="s">Building Management System</span><span class="nf">&quot;</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="c"># The meaning is definitive</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="nf">...</span>
+</code></pre></div>
+
+</td>
+</tr>
+</table>
+
+<h3 id="behave">Behave</h3>
+<p>Behave is a Python-based test automation framework for behaviour driven development which executes against gherkin tests.</p>
+<p>A Behave step definition contains four key components:</p>
+<ul>
+<li>a decorator: defining which gherkin keywords a definition is compatible to run with e.g. given, when, or then</li>
+<li>a pattern: matching text used within steps</li>
+<li>a function: containing the automation implementation</li>
+<li>a context: passing global data to our step definition</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nd">@decorator</span><span class="p">(</span><span class="s1">&#39;pattern&#39;</span><span class="p">)</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">function</span><span class="p">(</span><span class="n">context</span><span class="p">):</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>    <span class="o">...</span>
+</code></pre></div>
+<p>Parameters can be passed to step definitions. The upcoming step matches a subsequent step definition that is compatible only with 'given' steps. It specifically accepts integers as a parameter, representing the number of cucumbers.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">Given </span><span class="nf">I have </span><span class="s">5</span><span class="nf"> cucumbers</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nd">@given</span><span class="p">(</span><span class="s1">&#39;I have </span><span class="si">{cucumbers:d}</span><span class="s1"> cucumbers&#39;</span><span class="p">)</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">step_implementation</span><span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">cucumbers</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>    <span class="k">if</span> <span class="ow">not</span> <span class="n">context</span><span class="o">.</span><span class="n">cucumbers</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Must at least have a cucumber&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>With a Behave setup, configuration is typically defined in an <code>environment.py</code> module. Beyond settings, this module can be used to apply Behave hooks - which can execute code before and after different phases of a test run; such as on test run, tags, features, scenarios and steps.</p>
+<p>The sample environment module below includes two print statements. These can be replaced with environment setup and teardown operations, which are executed before and after each test run.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">before_all</span><span class="p">(</span><span class="n">context</span><span class="p">):</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Setting up environment...&quot;</span><span class="p">)</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="k">def</span><span class="w"> </span><span class="nf">after_all</span><span class="p">(</span><span class="n">context</span><span class="p">):</span>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tearing down environment...&quot;</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="test-automation-manifesto">Test Automation Manifesto</h2>
+<p>Consider writing your own test automation manifesto; a living document in a common language that describes the foundational elements that will lead to success. Represents a distillation of our values and attributes that we all agree as our practices. Start from the ground up - beginning with the end in mind.</p>
+<h3 id="values">Values</h3>
+<ol>
+<li>Focus on business value over test coverage - know why you are doing it</li>
+<li>Be the conscience of the team over sticking with the status quo - always look for ways to improve; not doing something a certain way because its always been done that way - ensure you are effective and efficient</li>
+<li>Check that things work for customers instead of "works on my machine" - achieve parity with user experience while balancing efficiency and costs</li>
+<li>Fast and reliable feedback - testing while acting similar to business analysts; having feedback loops with customers</li>
+</ol>
+<h3 id="attributes">Attributes</h3>
+<p>Fundamental pillars that prop up the success of a team. Vendor agnostic. Context free. Fundamental stable stakes that everybody practices and has at their disposal.</p>
+<ol>
+<li>Team and culture e.g. skills, commitment to quality &amp; testability, pick right tools for the job. Right people, right motivation, right mindeset; buy-in from leadership. Hardest to get right; funding &amp; support for education, focusing on open source, paying for licences for commercial off the shelf tools or some conbination of the two. Takes time to grow and nurture. The teams that have done the most widely successful things with test automation.</li>
+<li>Robust test framework e.g. simple authoring, aligned with team skills, that is maintainable and reusable. Show up and meet them where they are; create building blocks for tooling ideally in the language they're in or making it so that if its not something they are familiar with that there is good onramps in a way that is maintainable and reusable; so easy for people to keep working and solve the problem once and not have everyone else have to solve it as well.</li>
+<li>Stable and scalable test infrastructure e.g. fast execution at scale, executed across browsers &amp; devices, with stability baked-in. Scaling horizontally (as fast as possible across as many browsers and devices as possible) and vertically (across different platforms, operating systems, etc.).</li>
+<li>Reporting and analytics e.g. easily identify flaky tests, see results in real time, efficient selection &amp; prioritisation of tests. Bake in reliability such as self-healing locators. Quarantine and identify flaky tests for triage.</li>
+<li>Test data &amp; isolation e.g. ability to mock services/systems, generate test data, and create deterministic outcomes, with minimum dependencies between tests &amp; systems. Being able to simulate a situation if you catch a bug to reporduce, etc. Generating test data and being able to test in isolation to scale.</li>
+</ol>
+<h2 id="test-automation-scorecard">Test Automation Scorecard</h2>
+<h3 id="maintainability">Maintainability</h3>
+<p>How easily a test script or suite can be updated or modified to changes in the software under test; how clear and understandable for users.</p>
+<p>Well structured, follows good coding practices, well-documented, can be readily understand and updated - reducing time and effort for its upkeep.</p>
+<ul>
+<li>Readability - If tests aren't readable, they won't be maintainable. You spend more time reading than writing scripts.</li>
+<li>Modular Code - Breaking test scripts into small manageable functions that can be easily reused.</li>
+</ul>
+<h3 id="is-it-relevant-to-the-business">Is it relevant to the business?</h3>
+<p>Degree to which the tests align with and validate the business requirements and objectives. Ensuring functionality test is meaningful to end users, contributes to overall business goals; and catching any deviations affecting business goals or user experience. Underscores importance of prioritising test automation efforts on the most impactful aspects of the software from a business perspective - focusing on risk above all else.</p>
+<ul>
+<li>Make sure aligns with business goals - Do I understand the business goals? Am I designing my test to validate the most important functionality that validates those goals.</li>
+<li>Risk based testing - Features with high business impact should be tested more thoroughly.</li>
+</ul>
+<h3 id="clear-traceability">Clear traceability</h3>
+<p>Being able to eaily link test cases or test results back to respective requirements or user stories.</p>
+<p>Ensures each test has a specific purpose tied to a functionality or performance of the application or performance under test.</p>
+<p>Allows stakeholders to understand what is being tested and why; and how the results relate back to the projects overall objectives. Crucial for effective reporting, understanding test coverage and ensure project requirements are properly validated.</p>
+<ul>
+<li>Map tests to requirements - Explicitedly link tests to requirements.</li>
+<li>Clear test naming - Name test in a way that clearly indicates their purpose and the functionality they're testing.</li>
+</ul>
+<h3 id="reusability">Reusability</h3>
+<p>Ability of test scripts or components of test scripts to be used in multiple test scenarios across different projects.</p>
+<p>Reduces efforts and time for creating and maintaining test scripts; and increases consistency - it's all about making modularly designed tests where common functionality is encapsulated into reusable functions or classes.</p>
+<ul>
+<li>Modularise your test scripts - Break your tests into smaller reusable functions enabling reuse across multiple tests.</li>
+<li>Leverage a test framework - Use a test framework that supports reusability from the start such as those that define setup or teardown methods and data-driven testing without having to implement it from scratch.</li>
+</ul>
+<h3 id="manageable-and-scalable-test">Manageable and scalable test</h3>
+<p>Ease of managing the test suite and its ability to grow or adapt while your software under test is also growing. Well-organised, easy to update or adjusted. Also implies test execution monitoring and reporting are streamlined and user friendly. The scalable element refers to the test suites capability to handle growth whether in form of increased tests, more complex scenarios or expanded functionality. Scalable test can be easily extended and maintain performance despite increased demands. Need to think of scalability from the start.</p>
+<ul>
+<li>Follow coding standards - Adhere to consistent coding standards to make easier to understand, maintain, expand. Should be doing code reviews and using linters for consistency and quality.</li>
+<li>Run tests as often as possible - Running your tests regularly will ensure they're reliable - makes them more managable and scalable; use CICD and incorporate tests into the same.</li>
+</ul>
+<h3 id="accessible-across-company">Accessible across company</h3>
+<p>Your tests, results and related documentation need to be readily available and understandable to various stakedholders within the organisation.</p>
+<p>The tool you use for testing should have user friendly interfaces that multiple team members can navigate for transparency, improves collaboration and ensures everyone can gain insights from the testing process. You want to make sure you have the whole team involved when doing automation not just one person on the sprint team.</p>
+<ul>
+<li>Maintain clear documentation - Clearer document for tests, processes and results so are easy to understand.</li>
+<li>Implement a testing dashboard - High level overviews of test results making easily digestible for non-technical stakeholders and the team and save a lot of time in reporting results.</li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li>🌎 Cucumber anti-patterns (<a href="https://cucumber.io/blog/bdd/cucumber-antipatterns-part-one/">part 1</a>) and (<a href="https://cucumber.io/blog/bdd/cucumber-anti-patterns-part-two/">part 2</a>)</li>
+<li>🎥 <a href="https://youtu.be/siyIuuzkbVA?si=NY5XHJhJplSNd5Kk">Redefining Test Automation: A New Perspective</a>, Joe Colantonio</li>
+<li>🌎 <a href="https://testguild.com/automation-scorecard-scorequizz/">Automation Scorecard</a>, Test Guild</li>
+<li>🌎 <a href="https://does.qa/blog/winning-with-test-automation-the-score-method">Automation SCORE method</a>, Does QA</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/kieran-ryan/leabhar-cliste" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.sections", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotate", "content.code.copy"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
