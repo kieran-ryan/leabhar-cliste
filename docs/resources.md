@@ -67,11 +67,13 @@ List of useful software engineering resources
 - [Kill It With Fire](https://nostarch.com/kill-it-fire) - Marianne Bellotti
 - [Legacy Code: First Aid Kit](https://understandlegacycode.com/first-aid-kit/) - Nicolas Carlo
 - Lizard Optimization - Gojko Adzic
+- [Performance Hints](https://abseil.io/fast/hints.html) - Approaching and optimising software performance
 - The Concise Mastery - Robert Greene
 - Software Abstractions - Daniel Jackson
 - [Software Design X-Rays](https://pragprog.com/titles/atevol/software-design-x-rays/) - Adam Tornhill
 - Software Engineering - Ian Sommerville
 - Refactoring - Martin Fowler
+- [Regenerative Software](https://aicoding.leaflet.pub/3majnyfydzs2y) - Paradigm shift in approach to software with advances in software generation
 - The BDD Books - Discovery: Explore behaviour using examples - Gáspár Nagy and Seb Rose
 - The BDD Books - Formulation: Document examples with Given When Then - Gáspár Nagy and Seb Rose
 - The Design of Everyday Things - Don Norman
